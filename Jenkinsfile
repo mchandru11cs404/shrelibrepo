@@ -1,4 +1,4 @@
-@library('pipe-demo')
+//@library('pipe-demo')
 pipeline{
   agent any
 	libraries {
@@ -7,7 +7,7 @@ pipeline{
   stages{
 	stage('demo'){
 	steps {
-	Hello,'Kloud9'
+	Hello'Kloud9'
         }
             }
     }
