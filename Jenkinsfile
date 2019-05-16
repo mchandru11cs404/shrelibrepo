@@ -1,4 +1,4 @@
-@library('pipe-demo')
+//@library('pipe-demo')
 pipeline{
   agent any
   stages{
