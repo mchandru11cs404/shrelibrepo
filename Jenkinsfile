@@ -1,11 +1,12 @@
 @library('pipe-demo')
-pipeline {
-    agent any
-    stages {
-        stage('Demo') {
-            steps {
-                echo 'Hello'
-            }
+pipeline{
+  agent any
+  stages{
+	stage('demo'){
+	steps {
+	echo 'Hello'
         }
+            }
     }
 }
+
