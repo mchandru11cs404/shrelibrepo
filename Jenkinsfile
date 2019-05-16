@@ -7,7 +7,7 @@ pipeline{
   stages{
 	stage('demo'){
 	steps {
-	echo 'Hello'
+	Hello 'Kloud9'
         }
             }
     }
