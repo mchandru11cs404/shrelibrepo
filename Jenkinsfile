@@ -1,6 +1,6 @@
 @library('pipe-demo')
 pipeline {
-    agent any{
+    agent any
     stages {
         stage('Demo') {
             steps {
