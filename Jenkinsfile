@@ -2,7 +2,7 @@
 pipeline{
   agent any
 	libraries {
-  lib('pipe-demo@standard-cluster-1')
+  lib('pipe-demo@master')
 }
   stages{
 	stage('demo'){
