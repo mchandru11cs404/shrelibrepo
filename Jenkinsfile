@@ -8,6 +8,7 @@ pipeline{
 	stage('demo'){
 	steps {
 	hello'Kloud9'
+		sh 'kubectl cteate serviveaccount testuser2'
         }
             }
     }
